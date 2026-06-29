@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+<h1>Registration</h1>
+
+<form>
+
+<table width="100%">
+
+<tr>
+
+  
+    <td valign="top">
+        <fieldset>
+            <legend><b>General Information</b></legend>
+
+            First Name:
+            <input type="text"><br><br>
+
+            Last Name:
+            <input type="text"><br><br>
+
+            Gender:
+            <input type="radio" name="g"> Male
+            <input type="radio" name="g"> Female
+            <br><br>
+
+            Father's Name:
+            <input type="text">
+            <input type="file">
+            <br><br>
+
+            Mother's Name:
+            <input type="text"><br><br>
+
+            Blood Group:
+            <select>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>
+            <br><br>
+
+            Religion:
+            <select>
+                <option>Islam</option>
+                <option>Hindu</option>
+                <option>Christian</option>
+                <option>Buddhist</option>
+            </select>
+
+        </fieldset>
+    </td>
+
+
+ 
+    <td valign="top">
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+
+            Email:
+            <input type="email"><br><br>
+
+            Phone/Mobile:
+            <input type="text"><br><br>
+
+            Website:
+            <input type="url"><br><br>
+
+            Present Address:<br><br>
+
+            <select>
+                <option>Bangladesh</option>
+            </select>
+
+            <select>
+                <option>Dhaka</option>
+                <option>Khulna</option>
+            </select>
+            <br><br>
+
+            Address:<br>
+            <textarea rows="4" cols="25"></textarea>
+            <br><br>
+
+            <input type="text" placeholder="Post Code">
+
+        </fieldset>
+    </td>
+
+
+
+    <td valign="top">
+        <fieldset>
+            <legend><b>Account Information</b></legend>
+
+            Username:
+            <input type="text"><br><br>
+
+            Password:
+            <input type="password"><br><br>
+
+            Confirm Password:
+            <input type="password"><br><br>
+
+            <input type="submit" value="Register">
+
+        </fieldset>
+    </td>
+
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
